@@ -13,3 +13,12 @@
   font-size: 1.5em;
 }
 
+img{
+  width: 100px;
+  height:100px;
+  } 
+
+  button{
+    background-color:rgb(196, 241, 241);
+    border-radius: 50%;
+}

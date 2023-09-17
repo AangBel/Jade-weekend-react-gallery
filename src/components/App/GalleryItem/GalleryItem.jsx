@@ -6,7 +6,7 @@ function GalleryItem({ item, getGalleryItems }) {
     console.log('in GalleryItem fn of GalleryItem file');
 
     const [showDescription, setShowDescription] = useState(false);
-    const [clicked, setClick] = useState(true);
+    // const [clicked, setClick] = useState(true);
     const [likes, setLikes] = useState(item.likes);
 
     const handleLike = () => {
@@ -30,7 +30,7 @@ return (
     <>
     <div className="gallery-item">
         {showDescription ? (
-            <p 
+            <p id="descriptionP"
                 onClick={toggleDescription}
                 >
                 {item.description}
@@ -43,7 +43,7 @@ return (
 
         <p>Likes: {item.likes}</p>
 
-        <button onClick={handleLike}>Like</button>
+        <button id ="likeBtn" onClick={handleLike}>🩵</button>
     </div>
     </>
 );

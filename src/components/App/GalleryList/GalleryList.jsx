@@ -8,13 +8,9 @@ function GalleryList({galleryList, getGalleryItems}){
 return (
     <>
     <div>
-        {/*  Does the path, desc, likes go here? */}
     {galleryList.map((item) => (
         <GalleryItem
         key={item.id}
-        // path={item.path}
-        // description={item.description}
-        // likes={item.likes}
         item={item}
         getGalleryItems={getGalleryItems}
         />
