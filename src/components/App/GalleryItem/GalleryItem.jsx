@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import "./GalleryItem.css";
 // import GalleryList from '../GalleryList/GalleryList';
 
 function GalleryItem({ item, getGalleryItems }) {
@@ -28,15 +29,19 @@ const toggleDescription = () => {
 
 return (
     <>
-    <div className="gallery-item">
+
+    
+    <div className='gallery-grid-item'>
         {showDescription ? (
-            <p id="descriptionP"
+            <p 
                 onClick={toggleDescription}
                 >
                 {item.description}
                 </p>
         ) : (
-            <img src={item.path} 
+            <img 
+            className='picture'
+            src={item.path} 
             alt={item.description} 
             onClick={toggleDescription} />
         )}
@@ -44,7 +49,7 @@ return (
         <p>Likes: {item.likes}</p>
 
         <button id ="likeBtn" onClick={handleLike}>🩵</button>
-    </div>
+</div>
     </>
 );
 }

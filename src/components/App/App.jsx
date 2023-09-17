@@ -6,7 +6,7 @@ import GalleryList from './GalleryList/GalleryList';
 
 
 // TODO where do we use GalleryItem in here????
-// import GalleryItem from './GalleryItem/GalleryItem';
+import GalleryItem from './GalleryItem/GalleryItem';
 
 
 
@@ -32,15 +32,18 @@ function App() {
     return (
       <>
       
-      <div className="App">
+      <div id="App">
         <header className="App-header">
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <body>
+      <div className='box'>
+
 
         <GalleryList galleryList = {galleryList} 
         getGalleryItems = {getGalleryItems} 
         />
+      </div>
 
         </body>
       </div>

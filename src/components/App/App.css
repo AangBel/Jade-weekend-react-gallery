@@ -10,15 +10,25 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 4.5em;
+  font-family: 'Fuggles', cursive;
+  padding-left:50px;
+  padding-right: 50px;
 }
 
-img{
-  width: 100px;
-  height:100px;
-  } 
+div {
+  align-items: stretch;
+  display: grid;
+  
+  grid-template-columns: repeat(5, 1fr); 
+  
+  grid-template-rows: repeat(2, 1fr); 
+  
+  gap: 10px; 
+  justify-content: center;
 
-  button{
-    background-color:rgb(196, 241, 241);
-    border-radius: 50%;
+
+  }
+.gallery-grid-item{
+  border-top:20px;
 }
