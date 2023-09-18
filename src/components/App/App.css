@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: grey;
   padding: 1em;
   color: white;
   margin-bottom: 1em;
@@ -75,9 +75,9 @@ h1{
     
     align-content: center;
     
-    width: 100px;
+    width: 200px;
     
-    height: 100px;
+    height: 200px;
     
     border: 1px solid #ccc;
     
@@ -101,7 +101,6 @@ h1{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-
     }
 
     button{

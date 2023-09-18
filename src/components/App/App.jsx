@@ -34,7 +34,7 @@ function App() {
       
       <div id="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">Gallery of My Drawings</h1>
         </header>
         <body className='box'>
       <div className='whole'>
