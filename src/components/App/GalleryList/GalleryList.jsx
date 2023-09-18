@@ -8,7 +8,7 @@ function GalleryList({galleryList, getGalleryItems}){
 
 return (
     <>
-    <div>
+    <div className= "list-div">
     {galleryList.map((item) => (
         <GalleryItem
         key={item.id}

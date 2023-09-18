@@ -30,8 +30,7 @@ const toggleDescription = () => {
 return (
     <>
 
-    
-    <div className='gallery-grid-item'>
+    <div className='gallery-item'>
         {showDescription ? (
             <p 
                 onClick={toggleDescription}

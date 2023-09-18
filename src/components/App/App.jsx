@@ -36,10 +36,8 @@ function App() {
         <header className="App-header">
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
-        <body>
-      <div className='box'>
-
-
+        <body className='box'>
+      <div className='whole'>
         <GalleryList galleryList = {galleryList} 
         getGalleryItems = {getGalleryItems} 
         />

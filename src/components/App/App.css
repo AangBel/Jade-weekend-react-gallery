@@ -10,14 +10,26 @@
 }
 
 .App-title {
-  font-size: 4.5em;
+  font-size: 5.5em;
   font-family: 'Fuggles', cursive;
   padding-left:50px;
   padding-right: 50px;
 }
 
-div {
-  align-items: stretch;
+.gallery-item{
+display: grid;
+align-items: baseline;
+justify-items: center;
+background-color: lightblue;
+padding-top: 30px;
+padding-bottom: 30px;
+  }
+
+h1{
+  text-align: center;  
+  }
+/* .whole{
+  align-items:stretch;
   display: grid;
   
   grid-template-columns: repeat(5, 1fr); 
@@ -25,10 +37,66 @@ div {
   grid-template-rows: repeat(2, 1fr); 
   
   gap: 10px; 
-  justify-content: center;
+  /* justify-content: center; */
 
+  */
 
+.box{
+  align-items:stretch;
+  display: grid;
+  
+  grid-template-columns: repeat(5, 1fr); 
+  
+  grid-template-rows: repeat(2, 1fr); 
+  
+  gap: 10px; 
+  /* justify-content: center; */
   }
-.gallery-grid-item{
-  border-top:20px;
-}
+
+  .list-div{
+    align-items:stretch;
+  display: grid;
+  
+  grid-template-columns: repeat(5, 1fr); 
+  
+  grid-template-rows: repeat(2, 1fr); 
+  
+  gap: 10px; 
+  /* justify-content: center; */
+  }
+
+  .picture {
+
+    display: flex;
+    
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    
+    align-content: center;
+    
+    width: 100px;
+    
+    height: 100px;
+    
+    border: 1px solid #ccc;
+    
+    border-radius: 8px;
+    
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    }
+
+  .picture:hover {
+
+    transform: scale(1.2);
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    }
+
+    p{
+    font-size: 40px;
+    font-family: 'Fuggles', cursive;
+    text-align: center;
+    }
