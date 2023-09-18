@@ -28,18 +28,8 @@ padding-bottom: 30px;
 h1{
   text-align: center;  
   }
-/* .whole{
-  align-items:stretch;
-  display: grid;
-  
-  grid-template-columns: repeat(5, 1fr); 
-  
-  grid-template-rows: repeat(2, 1fr); 
-  
-  gap: 10px; 
-  /* justify-content: center; */
 
-  */
+
 
 .box{
   align-items:stretch;
@@ -50,7 +40,6 @@ h1{
   grid-template-rows: repeat(2, 1fr); 
   
   gap: 10px; 
-  /* justify-content: center; */
   }
 
   .list-div{
@@ -62,7 +51,6 @@ h1{
   grid-template-rows: repeat(2, 1fr); 
   
   gap: 10px; 
-  /* justify-content: center; */
   }
 
   .picture {

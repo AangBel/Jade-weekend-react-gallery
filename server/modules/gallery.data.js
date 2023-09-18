@@ -14,11 +14,6 @@ const galleryItems = [
     { id: 13, path: 'images/night.jpg', description: 'A drawing of a hazy moon over over water', likes: 0 },
     { id: 14, path: 'images/blackPanda.jpg', description: 'A drawing of a lazy panda', likes: 0 },
     { id: 15, path: 'images/whale.jpg', description: 'A drawing of a whale', likes: 0 }
-
-
-
-
-
 ];
 
 module.exports = galleryItems;
