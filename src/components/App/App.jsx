@@ -29,25 +29,18 @@ function App() {
     console.error('error fetching gallery', error);
   });
 }
-    return (
-      <>
-      
-      <div id="App">
-        <header className="App-header">
-          <h1 className="App-title">Gallery of My Drawings</h1>
-        </header>
-        <body className='box'>
-      <div className='whole'>
-        <GalleryList galleryList = {galleryList} 
-        getGalleryItems = {getGalleryItems} 
-        />
-      </div>
-
-        </body>
-      </div>
-      
-      </>
-    );
+      return (
+        <div id="App">
+          <header className="App-header">
+            <h1 className="App-title">Gallery of My Drawings</h1>
+          </header>
+          <div className='box'>
+            {/* <div className='list-div'> */}
+              <GalleryList galleryList={galleryList} getGalleryItems={getGalleryItems} />
+            {/* </div> */}
+          </div>
+        </div>
+      );
 }
 
 export default App;
