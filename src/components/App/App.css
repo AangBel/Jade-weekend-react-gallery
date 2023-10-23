@@ -91,7 +91,7 @@ justify-content: center;
 p {
   font-size: 40px;
   font-family: "Fuggles", cursive;
-  /* text-align: center; */
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
